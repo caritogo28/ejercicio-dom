@@ -1,18 +1,13 @@
 @import "./reset";
 
-body {
-  border: 1px solid black;
-}
-
 .container {
   margin: 2rem;
-  background-color: beige;
 }
 
 .header {
   border: 1px solid black;
   padding: 2rem;
-  background-color: burlywood;
+  background-color: #f5d1c3;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -23,6 +18,7 @@ body {
     height: 5rem;
     border: 1px solid black;
     border-radius: 1rem;
+    background-color: #c4d7d1;
   }
 
   &__nav {
@@ -41,7 +37,7 @@ body {
 }
 .hero {
   border: 1px solid black;
-  background-color: burlywood;
+  background-color: #f5d1c3;
   padding: 3rem 1rem;
   display: flex;
   align-items: center;
@@ -60,14 +56,14 @@ body {
   &__img {
     width: 50%;
     height: 20rem;
-    background-color: peru;
+    background-color: #c4d7d1;
     border-radius: 2rem;
     border: 1px solid black;
   }
 }
 .info {
   border: 1px solid black;
-  background-color: burlywood;
+  background-color: #f5d1c3;
   padding: 3rem 1rem;
   position: relative;
   &__images {
@@ -77,7 +73,7 @@ body {
       width: 55rem;
       height: 55rem;
       img {
-        background-color: white;
+        background-color: #c4d7d1;
         border-radius: 100%;
         width: 100%;
         height: 70%;
@@ -93,11 +89,11 @@ body {
   a {
     text-align: center;
     font-size: 2rem;
-    color: black;
-    background-color: aquamarine;
+    color: white;
+    background-color: #5f9595;
     width: 20rem;
     margin: 0 auto;
-    padding: 1rem 7rem;
+    padding: 1.5rem 7rem;
     text-decoration: none;
     position: absolute;
     left: 50%;
