@@ -1,0 +1,284 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  font-family: "ChakraPetch-Regular", sans-serif;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  border: 1px solid black;
+}
+
+.container {
+  margin: 2rem;
+  background-color: beige;
+}
+
+.header {
+  border: 1px solid black;
+  padding: 2rem;
+  background-color: burlywood;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 2rem;
+}
+
+.header__logo {
+  width: 25rem;
+  height: 5rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+}
+
+.header__nav {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+.header__nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__nav ul li {
+  padding: 0 1rem;
+}
+
+.header__nav ul li:not(:last-child) {
+  border-right: 0.5px solid black;
+}
+
+.hero {
+  border: 1px solid black;
+  background-color: burlywood;
+  padding: 3rem 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 2rem;
+}
+
+.hero__text {
+  font-size: 1.7rem;
+  width: 50%;
+  padding: 1rem;
+  line-height: 2rem;
+}
+
+.hero__text h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+
+.hero__img {
+  width: 50%;
+  height: 20rem;
+  background-color: peru;
+  border-radius: 2rem;
+  border: 1px solid black;
+}
+
+.info {
+  border: 1px solid black;
+  background-color: burlywood;
+  padding: 3rem 1rem;
+  position: relative;
+}
+
+.info__images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.info__images figure {
+  width: 55rem;
+  height: 55rem;
+}
+
+.info__images figure img {
+  background-color: white;
+  border-radius: 100%;
+  width: 100%;
+  height: 70%;
+  border: 1px solid black;
+}
+
+.info__images figure figcaption {
+  font-size: 4rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+.info a {
+  text-align: center;
+  font-size: 2rem;
+  color: black;
+  background-color: aquamarine;
+  width: 20rem;
+  margin: 0 auto;
+  padding: 1rem 7rem;
+  text-decoration: none;
+  position: absolute;
+  left: 50%;
+  bottom: 2rem;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+/*# sourceMappingURL=main.css.map */
